@@ -1,0 +1,9 @@
+"GO ID","GO-BP term","Gene ratio","Fold enrichment","Genes","FDR"
+"GO:0050851","antigen receptor-mediated signaling pathway","30/783",3.006,30,0.000214
+"GO:0042113","B cell activation","32/783",2.795,32,0.000249
+"GO:0042100","B cell proliferation","13/783",3.578,13,0.00824
+"GO:0051251","positive regulation of lymphocyte activation","36/783",1.99,36,0.00897
+"GO:0030595","leukocyte chemotaxis","27/783",2.685,27,0.00158
+"GO:0002221","pattern recognition receptor signaling pathway","34/783",2.346,34,0.0017
+"GO:0002218","activation of innate immune response","35/783",2.139,35,0.00421
+"GO:0030217","T cell differentiation","30/783",2.157,30,0.00865

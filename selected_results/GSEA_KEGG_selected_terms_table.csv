@@ -1,0 +1,4 @@
+"KEGG ID","KEGG pathway","NES","Gene set size","Leading-edge genes","FDR"
+"hsa04612","Antigen processing and presentation",2.103,58,26,0.00136
+"hsa04672","Intestinal immune network for IgA production",2.008,43,19,0.023
+"hsa04514","Cell adhesion molecule (CAM) interaction",1.678,111,26,0.017

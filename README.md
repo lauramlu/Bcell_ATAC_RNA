@@ -12,11 +12,12 @@ TFM_Bcell_ATAC_RNA/
 ├── README.md
 ├── .gitignore
 ├── scripts/
-├── data/       # local input and processed data
-└── results/    # generated tables, figures and R objects
+├── selected_results/  # final figures, tables and session information
+├── data/              # local input and processed data
+└── results/           # generated tables, figures and R objects
 ```
 
-The `data/` and `results/` folders are excluded from version control. The scripts create their output folders when needed.
+The `data/` and `results/` folders are excluded from version control. A selection of final results is included in `selected_results/`. The scripts create their output folders when needed.
 
 ## Requirements
 
@@ -80,6 +81,28 @@ Use a fresh R session for each script to avoid conflicts between functions from 
 Scripts 03 and 04 account for donor differences when comparing cell types. Scripts 05 and 07 use a likelihood ratio test (LRT) to evaluate donor effects while accounting for cell type. In script 07, Benjamini-Hochberg correction is applied within the set of correlated genes. Thresholds and selection criteria are specified in each script.
 
 ## Results
+
+The [selected_results](selected_results/) folder contains the figures and tables selected from the analysis:
+
+| Result | File |
+| --- | --- |
+| Final annotated OCR-gene table | [ocr_gene_table.csv](selected_results/ocr_gene_table.csv) |
+| RNA-seq PCA by cell type | [pca_rna_celltype.png](selected_results/pca_rna_celltype.png) |
+| ATAC-seq PCA by cell type | [pca_vst_celltype_ATAC.png](selected_results/pca_vst_celltype_ATAC.png) |
+| Heatmap of selected DEGs | [heatmap_top_DEGs_RNA.png](selected_results/heatmap_top_DEGs_RNA.png) |
+| Heatmap of selected DARs | [heatmap_top_DARs_ATAC.png](selected_results/heatmap_top_DARs_ATAC.png) |
+| GO-BP ORA lollipop plot | [GO_BP_ORA_selected_terms_lollipop.png](selected_results/GO_BP_ORA_selected_terms_lollipop.png) |
+| GO-BP GSEA lollipop plot | [GSEA_GO_BP_selected_terms_lollipop.png](selected_results/GSEA_GO_BP_selected_terms_lollipop.png) |
+| Selected GO-BP ORA terms | [GO_BP_ORA_selected_terms_table.csv](selected_results/GO_BP_ORA_selected_terms_table.csv) |
+| Selected GO-BP GSEA terms | [GSEA_GO_BP_selected_terms_table.csv](selected_results/GSEA_GO_BP_selected_terms_table.csv) |
+| Selected KEGG GSEA pathways | [GSEA_KEGG_selected_terms_table.csv](selected_results/GSEA_KEGG_selected_terms_table.csv) |
+| R session information | [sessionInfo.txt](selected_results/sessionInfo.txt) |
+
+The final table contains 1,888 OCR-gene pairs involving 1,888 OCRs and 869 genes. It includes gene identifiers, genomic coordinates and annotations, Spearman correlations, adjusted p-values and donor-effect ranges for RNA-seq and ATAC-seq.
+
+These files are copies of selected outputs. Rerunning the scripts updates `results/`; the copies in `selected_results/` must be updated separately when needed.
+
+### Generated outputs
 
 Results are saved in numbered subfolders of `results/`. The final annotated table is written to:
 

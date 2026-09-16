@@ -1,0 +1,9 @@
+"GO ID","GO-BP term","NES","Gene set size","Leading-edge genes","FDR"
+"GO:0002250","adaptive immune response",1.634,500,178,7.26e-07
+"GO:0051249","regulation of lymphocyte activation",1.432,443,176,0.0023
+"GO:0002449","lymphocyte mediated immunity",1.409,305,156,0.0405
+"GO:0002429","immune response-activating cell surface receptor signaling pathway",1.4,295,136,0.0329
+"GO:0019882","antigen processing and presentation",2.04,102,38,7.52e-05
+"GO:0002460","adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains",1.399,323,117,0.0393
+"GO:1903706","regulation of hemopoiesis",1.406,370,151,0.0151
+"GO:0009615","response to virus",1.701,365,170,7.94e-07
