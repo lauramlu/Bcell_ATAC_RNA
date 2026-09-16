@@ -4,7 +4,8 @@ This repository contains the R scripts used in my master's thesis to study inter
 
 ## Data source
 
-This work reanalyses matched RNA-seq and ATAC-seq data from the study by Planell et al. on early human B-cell differentiation (10.1126/sciadv.adw3110), covering eight cell populations along the B-cell differentiation lineage. Input count matrices, sample metadata and OCR annotations are required to run the scripts and are not included in this repository.
+This work reanalyses matched RNA-seq and ATAC-seq data from the study by Planell et al. on early human B-cell differentiation (https://doi.org/10.1126/sciadv.adw3110), covering eight cell populations along the B-cell differentiation lineage. Input count matrices, sample metadata and OCR annotations are required to run the scripts and are not included in this repository.
+Data: https://osf.io/gswpy/
 
 ## Running the analysis
 
