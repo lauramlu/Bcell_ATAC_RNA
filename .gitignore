@@ -1,0 +1,22 @@
+# local input data and generated results
+/data/
+/results/
+
+# R and RStudio session files
+.Rproj.user/
+.Rhistory
+.RData
+.RDataTmp
+.Ruserdata
+Rplots.pdf
+
+# operating system files
+.DS_Store
+._*
+Thumbs.db
+
+# temporary and editor backup files
+~$*
+*.swp
+*.swo
+*~
